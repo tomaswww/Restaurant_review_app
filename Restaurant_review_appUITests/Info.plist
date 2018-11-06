@@ -18,5 +18,7 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>MGLMapboxAccessToken</key>
+	<string>pk.eyJ1IjoidG9tYXN3d3ciLCJhIjoiY2pud2Rsb2xvMDBkdTN3bXh3ZjE1N3Z4NSJ9.S4NV5Md1E8LmUcIlfspA-A</string>
 </dict>
 </plist>
