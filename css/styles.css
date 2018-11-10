@@ -37,9 +37,6 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 
 #maincontent {
-	display: flex;
-	flex-direction: row;
-	flex-flow: wrap;
   background-color: #f3f3f3;
   min-height: 100%;
 }
@@ -158,7 +155,6 @@ nav h1 a {
 	#restaurants-list li {
 		width:50%;
 	}
-
 }
 
 #restaurants-list {
