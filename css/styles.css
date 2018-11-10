@@ -149,6 +149,18 @@ nav h1 a {
 }
 
 /* ====================== Restaurant Listing ====================== */
+@media (min-width:800px){
+	#restaurants-list{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	#restaurants-list li {
+		width:50%;
+	}
+
+}
+
 #restaurants-list {
   background-color: #f3f3f3;
   list-style: outside none none;
