@@ -39,7 +39,6 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 
 #maincontent {
   background-color: #f3f3f3;
-  min-height: 100%;
 }
 #footer {
   background-color: #444;
@@ -106,7 +105,7 @@ nav h1 a {
   background-color: #ccc;
 }
 /* ====================== Restaurant Filtering ====================== */
-@media (min-width:600px){
+@media screen (min-width:600px){
 .filter-options {
 	display: flex;
 	flex-direction: row;
@@ -116,7 +115,7 @@ nav h1 a {
   align-items: center;
 }
 }
-@media (max-width:600px){
+@media screen (max-width:599px){
 	.filter-options {
 		display: flex;
 		flex-direction: column;
@@ -213,7 +212,6 @@ nav h1 a {
 .inside{
 	display:flex;
 	flex-direction: row;
-
 }
 .inside header {
   position: fixed;
