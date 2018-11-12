@@ -69,7 +69,7 @@ nav h1 a {
 #breadcrumb {
     padding: 10px 40px 16px;
     list-style: none;
-    background-color: #a9ddfb;
+    background-color: #3397DB;
     font-size: 17px;
     margin: 0;
     width: calc(50% - 80px);
@@ -101,11 +101,10 @@ nav h1 a {
 /* ====================== Map ====================== */
 #map {
   height: 400px;
-  width: 100%;
   background-color: #ccc;
 }
 /* ====================== Restaurant Filtering ====================== */
-@media screen (min-width: 600px){
+@media (min-width: 600px){
 .filter-options {
 	display: flex;
 	flex-direction: row;
@@ -115,7 +114,7 @@ nav h1 a {
   align-items: center;
 }
 }
-@media screen (max-width: 599px){
+@media (max-width: 599px){
 	.filter-options {
 		display: flex;
 		flex-direction: column;
@@ -209,20 +208,60 @@ nav h1 a {
 }
 
 /* ====================== Restaurant Details ====================== */
-@media screen (max-width:600px){
-	.inside{
+.inside #maincontent {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+};
+/* Breakpoint for containers for small screen */
+@media (max-width:600px){
+	.inside {
 	display:flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-}};
+}
+#restaurant-container, #reviews-container {
+	width: 100%;
+}
+.inside #map-container {
+	background: blue none repeat scroll 0 0;
+	height: 87%;
+	width:100%;
+	right: 0;
+	top: 80px;
+}
+.inside #map {
+	background-color: #ccc;
+	height: 100%;
+	width: 100%;
+}
+};
 
-@media screen (min-width:601px){
-	.inside{
+/* Breakpoint for containers for large screen */
+@media (min-width:601px){
+	.inside {
 		display:flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 	}
-}
+	.inside #map-container {
+		position: fixed;
+		width: 50%
+	}
+	#restaurant-container, #reviews-container, #map-container {
+		width: 50%;
+	}
+	.inside #map-container {
+	  background: blue none repeat scroll 0 0;
+	  height: 87%;
+	  right: 0;
+	  top: 80px;
+	}
+	.inside #map {
+	  background-color: #ccc;
+	  height: 100%;
+	  width: 100%;
+	}};
 
 .inside header {
   position: fixed;
@@ -230,19 +269,7 @@ nav h1 a {
   width: 100%;
   z-index: 1000;
 }
-.inside #map-container {
-  background: blue none repeat scroll 0 0;
-  height: 87%;
-  position: fixed;
-  right: 0;
-  top: 80px;
-  width: 50%;
-}
-.inside #map {
-  background-color: #ccc;
-  height: 100%;
-  width: 100%;
-}
+
 .inside #footer {
   bottom: 0;
   position: absolute;
@@ -280,12 +307,9 @@ nav h1 a {
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
-  padding: 140px 40px 30px;
+  padding: 1%;
 }
-@media screen (max-width:600px){
-  #restaurant-container, #reviews-container, #map-container {
-		width: 100%;
-}}
+
 #reviews-container {
   padding: 30px 40px 80px;
 }
