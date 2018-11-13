@@ -251,9 +251,6 @@ position:absolute;
 		flex-direction: row;
 		flex-wrap: wrap;
 	}
-	.inside #map-container {
-		position: fixed;
-		width: 50%
 	}
 	#restaurant-container, #reviews-container, #map-container {
 		width: 50%;
@@ -263,11 +260,11 @@ position:absolute;
 	  height: 87%;
 	  right: 0;
 	  top: 80px;
+		position: fixed;
 	}
 	.inside #map {
 	  background-color: #ccc;
 	  height: 100%;
-	  width: 100%;
 	}
 #breadcrumb {
 width: calc(50% - 80px);
@@ -284,9 +281,6 @@ width: calc(50% - 80px);
   z-index: 1000;
 }
 
-.inside #footer {
-  bottom: 0;
-}
 #restaurant-name {
   color: #f18200;
   font-family: Arial,sans-serif;
