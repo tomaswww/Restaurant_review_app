@@ -72,7 +72,7 @@ nav h1 a {
     background-color: #3397DB;
     font-size: 17px;
     margin: 0;
-    width: calc(50% - 80px);
+
 }
 
 /* Display list items side by side */
@@ -235,6 +235,13 @@ nav h1 a {
 	height: 100%;
 	width: 100%;
 }
+#breadcrumb {
+	width: 100%;
+}
+.inside #footer {
+width: 50%;
+position:absolute;
+}
 };
 
 /* Breakpoint for containers for large screen */
@@ -261,7 +268,14 @@ nav h1 a {
 	  background-color: #ccc;
 	  height: 100%;
 	  width: 100%;
-	}};
+	}
+#breadcrumb {
+width: calc(50% - 80px);
+}
+.inside #footer {
+	width: 100%;
+}
+};
 
 .inside header {
   position: fixed;
@@ -272,8 +286,6 @@ nav h1 a {
 
 .inside #footer {
   bottom: 0;
-  position: absolute;
-  width: 50%;
 }
 #restaurant-name {
   color: #f18200;
