@@ -235,21 +235,18 @@ nav h1 a {
 
 /* ====================== Restaurant Details ====================== */
 
-.inside {
-  display: flex;
-  flex-wrap: wrap;
-}
 
-;
 /* Breakpoint for containers for small screen */
 
 @media (max-width:600px) {
-  .inside {
+	.inside {
     flex-direction: row;
     width: 100%;
   }
   .inside #restaurant-container, #reviews-container, #map-container {
-    width: 100%;
+		display: flex;
+	  flex-wrap: wrap;
+		width: 100%;
   }
   .inside #map-container {
     background: blue none repeat scroll 0 0;
@@ -259,7 +256,6 @@ nav h1 a {
   }
   .inside #map {
     background-color: #ccc;
-    height: 100%;
   }
   #breadcrumb {
     width: 100%;
@@ -277,7 +273,9 @@ nav h1 a {
     width: 50%;
   }
 .inside #restaurant-container, #reviews-container, #map-container {
-    width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%;
   }
   .inside #map-container {
     background: blue none repeat scroll 0 0;
