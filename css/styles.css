@@ -52,7 +52,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   color: #aaa;
   font-size: 8pt;
   letter-spacing: 1px;
-  padding: 25px;
+  padding: 2.5% 0% 2.5% 0%;
   text-align: center;
   text-transform: uppercase;
 }
@@ -79,7 +79,7 @@ nav h1 a {
 }
 
 #breadcrumb {
-  padding: 10px 40px 16px;
+  padding: 1% 0% 1.6%;
   list-style: none;
   background-color: #3397DB;
   font-size: 17px;
@@ -238,7 +238,7 @@ nav h1 a {
 
 /* Breakpoint for containers for small screen */
 
-@media (max-width:600px) {
+@media (max-width: 600px) {
 	.inside #maincontent{
     display: flex;
     flex-wrap: wrap;
@@ -252,7 +252,6 @@ nav h1 a {
   }
   .inside #restaurant-container{
     order:1;
-    align-items: center;
   }
    .inside #reviews-container{
      order:3;
@@ -271,18 +270,17 @@ nav h1 a {
     width: 90%;
     height:50%;
   }
-
   #breadcrumb {
     width: 100%;
   }
   .inside #footer {
     width: 100%;
-    position: absolute;
+text-align: center;
   }
 };
 
 /* Breakpoint for containers for large screen */
-@media (min-width:601px) {
+@media (min-width: 601px) {
   .inside #maincontent{
 		display: flex;
 		flex-wrap: wrap;
@@ -327,7 +325,6 @@ nav h1 a {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000;
 }
 
 #restaurant-name {
@@ -367,7 +364,7 @@ nav h1 a {
 }
 
 #reviews-container {
-  padding: 30px 40px 80px;
+  padding: 1% 1% 1%;
 }
 
 #reviews-container h2 {
