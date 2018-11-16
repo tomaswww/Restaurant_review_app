@@ -252,6 +252,7 @@ nav h1 a {
   }
   .inside #restaurant-container{
     order:1;
+    align-items: center;
   }
    .inside #reviews-container{
      order:3;
@@ -266,6 +267,11 @@ nav h1 a {
   .inside #map {
     background-color: #ccc;
   }
+  #restaurant-img {
+    width: 90%;
+    height:50%;
+  }
+
   #breadcrumb {
     width: 100%;
   }
@@ -291,6 +297,9 @@ nav h1 a {
 		width:50%;
 		order:1;
 	}
+  #restaurant-img {
+    width: 90%;
+  }
   .inside #map-container {
 		width:50%;
 		order:2;
@@ -332,9 +341,6 @@ nav h1 a {
   line-height: 1.1;
 }
 
-#restaurant-img {
-  width: 90%;
-}
 
 #restaurant-address {
   font-size: 12pt;
