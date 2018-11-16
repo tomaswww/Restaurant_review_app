@@ -238,7 +238,7 @@ nav h1 a {
 
 /* Breakpoint for containers for small screen */
 
-@media screen (max-width:600px) {
+@media (max-width:600px) {
 	.inside #maincontent{
     display: flex;
     flex-wrap: wrap;
@@ -250,6 +250,12 @@ nav h1 a {
 	  flex-wrap: wrap;
 		width: 100%;
   }
+  .inside #restaurant-container{
+    order:1;
+  }
+   .inside #reviews-container{
+     order:3;
+   }
   .inside #map-container {
     width:100%;
 		order:2;
@@ -270,7 +276,7 @@ nav h1 a {
 };
 
 /* Breakpoint for containers for large screen */
-@media screen (min-width:601px) {
+@media (min-width:601px) {
   .inside #maincontent{
 		display: flex;
 		flex-wrap: wrap;
