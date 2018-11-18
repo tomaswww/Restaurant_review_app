@@ -82,7 +82,7 @@ nav h1 a {
 #breadcrumb {
   padding: 10px 40px 16px;
   list-style: none;
-  background-color: #f3f3f3;
+  background-color: #d4d1d1;
   font-size: 17px;
   margin: 0;
   width: calc(50% - 80px);
@@ -389,6 +389,9 @@ nav h1 a {
   #restaurant-hours td {
     color: #666;
   }
+	#breadcrumb{
+		width:100%;
+	}
 }
 
 @media (max-width:600px) {
