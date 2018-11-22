@@ -1,5 +1,5 @@
 // defindes a var for cache when going offline
-var staticCache = "restaurantInfoOffline";
+var staticCache = "restaurantInfoOffline-v1";
 
 // sets where to look for (url)
 var urlToCache =[
@@ -33,6 +33,23 @@ event.waitUntil(
   })
 )
 });
+
+// setting the activate event for new service serviceWorker
+
+self.addEventListener('activate', function(event){
+event.waitUntil(
+caches.keys().then(function(cacheNames){
+  return Promise.all(
+  cacheNames.filter(function(cacheName) {
+    return cacheName.startsWith('restaurant-')&&
+      cacheName != staticCache;
+  }),map(function(cacheName){
+    return caches.delete(cacheName);
+  })
+)
+})
+)
+})
 
 // Here I define the commands for the service worker:
 self.addEventListener('fetch', function(event){
