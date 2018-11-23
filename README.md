@@ -1,16 +1,27 @@
-# Mobile Web Specialist Certification Course
----
-#### _Three Stage Course Material Project - Restaurant Reviews_
+# Restaurant Review app
 
-## Project Overview: Stage 1
+## Introduction
 
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
+The restaurant review app is the final project developed for the Front-End Web Developer Nanodegree Program at Udacity.
+The app design was stablished by our mentors, and the objective of my work was to code for Accessibility, Responsivenes and set up a Service Worker.
 
-### Specification
+[**Interested in knowing more about Udacity Program?**](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001)
 
-You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality.
+## Documentation
 
-### What do I do from here?
+You can find the project rubric  [here!](https://review.udacity.com/#!/rubrics/1090/view)
+
+## Usability
+
+All app components are usable across modern desktop, tablet, and phone browsers without any installation required.
+
+## Dependencies:
+
+-[leaflet](https://unpkg.com/leaflet@1.3.1/dist/leaflet.css)
+-[google code](//normalize-css.googlecode.com/svn/trunk/normalize.css)
+
+
+## What do I do from here? How do I get started?
 
 1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer.
 
@@ -27,3 +38,13 @@ This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://w
 ### Note about ES6
 
 Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write.
+
+## Contributing
+
+Note from the Mentors:
+
+>The files in this repository are used as the starting point for all students. Because we want students to write the majority of the code themselves, pull requests (most likely) will not be merged into the project.
+
+As this is my first app coding, you may find that many of the loops and code could probably be better, so once the project gets submitted and hopefully approved, feel free to contribute with anything that optimizes code or even helps me improve my coding skills welcome!
+
+> Stay positive and happy. Work hard and don't give up hope. Be open to criticism and keep learning. Surround yourself with happy, warm and genuine people. **Tena Desae**
