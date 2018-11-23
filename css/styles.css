@@ -66,11 +66,11 @@ nav {
   text-align: center;
 }
 
-nav h1 {
+nav h1 h2 h3{
   margin: auto;
 }
 
-nav h1 a {
+nav h1 h2 h3 a {
   color: #fff;
   font-size: 14pt;
   font-weight: 200;
@@ -79,7 +79,7 @@ nav h1 a {
 }
 
 #breadcrumb {
-  padding: 10px 40px 16px;
+  padding: 1% 1% 0%;
   list-style: none;
   background-color: #d4d1d2;
   font-size: 17px;
@@ -204,7 +204,7 @@ nav h1 a {
   min-width: 100%;
 }
 
-#restaurants-list li h1 {
+#restaurants-list li h1 h2 h3{
   color: #f18200;
   font-family: Arial, sans-serif;
   font-size: 125%;
@@ -265,7 +265,7 @@ nav h1 a {
   min-width: 100%;
 }
 
-#restaurants-list li h1 {
+#restaurants-list li h1 h2 h3{
   color: #f18200;
   font-family: Arial, sans-serif;
   font-size: 14pt;
@@ -326,7 +326,7 @@ nav h1 a {
     font-size: 3em;
     font-weight: 200;
     letter-spacing: 2%;
-    margin: 15px 0 30px;
+    margin: 5% 0 3%;
     text-transform: uppercase;
     line-height: 1.1;
     text-align: center;
@@ -354,7 +354,7 @@ nav h1 a {
   #restaurant-container, #reviews-container {
     border-bottom: 1px solid #d9d9d9;
     border-top: 1px solid #fff;
-    margin-top: 8%;
+    margin-top: 15%;
     width: 50%;
     text-align: center;
     justify-content: space-between;
@@ -362,7 +362,7 @@ nav h1 a {
   #reviews-container {
     padding: 1% 0% 1% 1%;
   }
-  #reviews-container h2 {
+  #reviews-container h2 h3{
     color: #f58500;
     font-size: 24pt;
     font-weight: 300;
@@ -392,6 +392,8 @@ nav h1 a {
   }
   #breadcrumb {
     width: 100%;
+    margin:0%;
+    align-items: left;
   }
 }
 
@@ -454,7 +456,7 @@ nav h1 a {
     justify-content: center;
     text-align: center;
   }
-  #reviews-container h2 {
+  #reviews-container h2 h3{
     color: #f58500;
     font-size: 24pt;
     font-weight: 300;
@@ -510,7 +512,7 @@ nav h1 a {
   }
   #breadcrumb {
     width: 100%;
-    padding: 4%;
+    padding: 1%;
   }
   .inside #footer {
     text-align: center;
