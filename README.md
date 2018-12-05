@@ -47,4 +47,4 @@ Note from the Mentors:
 
 As this is my first app coding, you may find that many of the loops and code could probably be better, so once the project gets submitted and hopefully approved, feel free to contribute with anything that optimizes code or even helps me improve my coding skills welcome!
 
-> Stay positive and happy. Work hard and don't give up hope. Be open to criticism and keep learning. Surround yourself with happy, warm and genuine people. **Tena Desae**
+> Knowledge is of no value unless you put it into practice. **Anton Chekhov**
